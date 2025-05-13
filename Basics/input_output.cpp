@@ -4,10 +4,10 @@ using namespace std;
 int main(){
 
    int a,b;
-   cout<<"Enter two numbers : ";
-   cin>>a>>b;
-   int sum = a+b;
-   cout<<"Sum = "<<sum<<endl;
+   cout<<"Enter two numbers : ";  
+   cin>>a>>b;                     //Take input 2 numbers
+   int sum = a+b;                  // Sum the 2 numbers
+   cout<<"Sum = "<<sum<<endl;       // Output the sum
 
     return 0;
 }
