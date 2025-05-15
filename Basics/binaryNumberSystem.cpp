@@ -16,6 +16,7 @@ using namespace std;
 //     cout<<"Binary number : "<<decToBinary(decNum)<<endl;
    
 
+
 // int binaryToDec(int n){
 //     int ans=0,pow=1;
 //     while (n>0)
