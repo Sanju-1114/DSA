@@ -3,6 +3,12 @@ using namespace std;
 
 int main(){
 
+   //For loop syntax
+   // for (size_t i = 0; i < count; i++)
+   // {
+   //    /* code */
+   // }
+   
    //test for loop 
     // int n=5;
     // for(int i=1;i<=n;i++){
