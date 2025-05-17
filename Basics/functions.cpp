@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+ // Funstions provide modularity to the code
+ 
 // void printHello(){
 //     cout<<"Hello \n";
 // }
