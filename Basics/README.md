@@ -52,6 +52,7 @@ To compile and run the programs, you need:
 - A terminal or IDE (e.g., VS Code, Code::Blocks)
 - Basic knowledge of C++ programming
 
+
 ## How to Compile and Run
 1. **Navigate to the repository folder**:
    ```bash
