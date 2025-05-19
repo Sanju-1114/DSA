@@ -46,6 +46,7 @@ Below is a brief description of each file in the repository:
 - **prime_or_not.cpp**: Checks if a given number is prime using a loop up to the square root of the number.
 - **while_loop.cpp**: Illustrates a while loop to print numbers from 1 to \( n \).   etc.
 
+
 ## Prerequisites
 To compile and run the programs, you need:
 - A C++ compiler (e.g., `g++` from GCC)
