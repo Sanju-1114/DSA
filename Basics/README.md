@@ -2,6 +2,7 @@
 
 This repository contains a collection of C++ programs demonstrating fundamental concepts of Data Structures and Algorithms (DSA). Each file focuses on a specific topic, such as loops, pointers, functions, bitwise operations, and more. These programs are designed for educational purposes to help beginners understand core programming concepts.
 
+
 ## Table of Contents
 - [Overview](#overview)
 - [How to Clone](#how-to-clone)
@@ -80,6 +81,7 @@ Contributions are welcome! If you want to add new programs, improve existing cod
 3. Make your changes and commit (`git commit -m "Add new feature"`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
+
 
 Please ensure your code is well-commented and follows C++ best practices.
 
