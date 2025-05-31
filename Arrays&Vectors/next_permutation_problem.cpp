@@ -1,5 +1,4 @@
 // Problem 31 on leetCode
-
 #include <iostream>
 #include <vector>
 #include<algorithm>
