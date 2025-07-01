@@ -41,7 +41,7 @@ To compile and run the programs in this repository, you need:
 ## How to Run
 1. **Clone the Repository**:
    ```bash
-   git clone 
+   git clone https://github.com/Sanju-1114/DSA.git
 
    ```
 
