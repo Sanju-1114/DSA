@@ -54,3 +54,11 @@ To compile and run the programs in this repository, you need:
 - **Shallow vs. Deep Copy:** Managing dynamic memory during object copying [shallow&deepCopy.cpp].
 Static Keyword: Using static for variables and objects to control lifetime and scope [staticKeyword.cpp].   
 
+## Contributing
+Contributions are welcome! If you have suggestions for improving the code, adding new examples, or enhancing the documentation, please:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes and commit (git commit -m "Add feature").
+4. Push to the branch (git push origin feature-branch).
+5. Open a pull request.
