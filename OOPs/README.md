@@ -39,7 +39,7 @@ To compile and run the programs in this repository, you need:
 - Basic knowledge of C++ syntax and OOP concepts
 
 ## How to Run
-1. **Clone the Repository**:
+1. **Clone the Repository**: This will clone the complete DSA file
    ```bash
    git clone https://github.com/Sanju-1114/DSA.git
 
