@@ -1,0 +1,55 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+bool isCycle(int src, vector<bool> &vis, vector<bool> &recPath, vector<vector<int>> &graph) {
+    vis[src] = true;
+    recPath[src] = true;
+
+    for(int i=0; i<graph.size(); i++) {
+        int u = graph[i][1];
+        int v = graph[i][0];
+
+        if(u == src) {
+            if(!vis[v]) {
+                if(isCycle(v, vis, recPath, graph)) {
+                    return true;
+                }
+            } else {
+                if(recPath[v]) {
+                    return true;
+                }
+            }
+        }
+    }
+
+    recPath[src] = false;
+    return false;
+
+}
+
+bool canFinish(int numCourses, vector<vector<int>> &graph) {
+    int V = numCourses;   // [v, u]    v <---- u
+    vector<bool> vis(V, false);
+    vector<bool> recPath(V, false);
+
+    for(int i=0; i<V; i++) {
+        if(!vis[i]) {
+            if(isCycle(i, vis, recPath, graph)) {
+                return false;
+            }
+        }
+    }
+
+    return true;
+
+}
+
+int main() {
+    int numCourses = 2;
+    vector<vector<int>> prerequisites = {{1, 0}, {0, 1}};
+
+    cout << canFinish(numCourses, prerequisites) << endl;
+
+    return 0;
+}
