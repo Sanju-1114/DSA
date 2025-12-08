@@ -1,0 +1,44 @@
+#include <iostream>
+#include <vector>
+#include <list>
+#include <queue>
+#include <string>
+using namespace std; 
+
+int minCostConnectPoints(vector<vector<int>>& points) {
+    int V = points.size();
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;  // (wt, v) --> meanHeap 
+        vector<bool> mst(V, false);
+
+        int  src = 0;
+        pq.push(make_pair(0 ,src));
+        int minCost = 0;
+
+        while( pq.size() > 0) {
+            int u = pq.top().second;
+            int cost = pq.top().first;
+            pq.pop();
+
+            if(!mst[u]) { 
+                mst[u] = true; 
+                minCost += cost;
+
+                for(int v = 0; v < V; v++) {
+                    if(u != v) {
+                        int wt = abs(points[u][0] - points[v][0]) + abs(points[u][1] - points[v][1]);
+                        pq.push(make_pair(wt, v));
+                    }
+                }
+            }
+        }
+
+        return minCost;
+}
+
+int main() {
+    vector<vector<int>> points = {{3, 12}, {-2, 5}, {-4, 1}};
+
+    cout << minCostConnectPoints(points) << endl;
+
+    return 0;
+}
