@@ -12,6 +12,7 @@ This repository contains a collection of C++ programs demonstrating fundamental 
 - [Contributing](#contributing)
 - [License](#license)
 
+---
 
 ## Overview
 The repository includes C++ programs covering essential programming constructs and algorithms, such as:
@@ -25,6 +26,8 @@ The repository includes C++ programs covering essential programming constructs a
 - Prime number checking
 
 Each file is self-contained and includes commented code for clarity.
+
+---
 
 ## How to Clone
 To clone this repository, run the following command in your terminal:
