@@ -85,5 +85,7 @@ Contributions are welcome! If you want to add new programs, improve existing cod
 
 Please ensure your code is well-commented and follows C++ best practices.
 
+---
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
