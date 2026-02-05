@@ -34,7 +34,7 @@ To clone this repository, run the following command in your terminal:
 ```bash
 git clone https://github.com/Sanju-1114/DSA.git
 ```
-
+---
 ## Files Description
 Below is a brief description of each file in the repository:
 
@@ -49,13 +49,14 @@ Below is a brief description of each file in the repository:
 - **prime_or_not.cpp**: Checks if a given number is prime using a loop up to the square root of the number.
 - **while_loop.cpp**: Illustrates a while loop to print numbers from 1 to \( n \).   etc.
 
-
+---
 ## Prerequisites
 To compile and run the programs, you need:
 - A C++ compiler (e.g., `g++` from GCC)
 - A terminal or IDE (e.g., VS Code, Code::Blocks)
 - Basic knowledge of C++ programming
 
+---
 
 ## How to Compile and Run
 1. **Navigate to the repository folder**:
@@ -76,6 +77,8 @@ To compile and run the programs, you need:
    ```
 
 Repeat the above steps for other files. Ensure you have write permissions in the directory.
+
+---
 
 ## Contributing
 Contributions are welcome! If you want to add new programs, improve existing code, or fix bugs:
