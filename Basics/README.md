@@ -2,7 +2,7 @@
 
 This repository contains a collection of C++ programs demonstrating fundamental concepts of Data Structures and Algorithms (DSA). Each file focuses on a specific topic, such as loops, pointers, functions, bitwise operations, and more. These programs are designed for educational purposes to help beginners understand core programming concepts.
 
-
+---
 ## Table of Contents
 - [Overview](#overview)
 - [How to Clone](#how-to-clone)
