@@ -22,6 +22,7 @@ This repository contains a collection of C++ programs demonstrating key Object-O
 ## Project Overview
 This project serves as an educational resource for students and developers learning OOP using C++. The code examples cover fundamental OOP principles such as encapsulation, inheritance, polymorphism, and abstraction, along with related concepts like constructors, destructors, deep/shallow copying, and the `static` keyword. Each program is well-commented and structured to illustrate a single concept clearly.
 
+---
 
 ## Files and Descriptions
 Below is a list of the C++ source files in this repository, each focusing on a specific OOP concept:
