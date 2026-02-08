@@ -39,6 +39,9 @@ Below is a list of the C++ source files in this repository, each focusing on a s
 | `shallow&deepCopy.cpp`        | Compares shallow and deep copying in a class with dynamically allocated memory. |
 | `staticKeyword.cpp`           | Demonstrates the use of the `static` keyword for variables and objects, showing their lifetime and scope. |
 
+
+---
+
 ## Prerequisites
 To compile and run the programs in this repository, you need:
 - A C++ compiler (e.g., `g++`, part of GCC)
