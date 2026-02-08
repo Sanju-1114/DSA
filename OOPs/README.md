@@ -48,6 +48,8 @@ To compile and run the programs in this repository, you need:
 - A development environment (e.g., VS Code, CLion, or any IDE supporting C++)
 - Basic knowledge of C++ syntax and OOP concepts
 
+---
+
 ## How to Run
 1. **Clone the Repository**: This will clone the complete DSA file
    ```bash
