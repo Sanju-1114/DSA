@@ -57,6 +57,8 @@ To compile and run the programs in this repository, you need:
 
    ```
 
+---
+
 ### Key OOP Concepts Covered
 - **Encapsulation:** Bundling data and methods into a class, with access control using private/public modifiers [encapsulation.cpp].
 - **Abstraction:** Hiding unnecessary details using abstract classes and pure virtual functions [abstraction.cpp].
