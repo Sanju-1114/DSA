@@ -66,6 +66,8 @@ To compile and run the programs in this repository, you need:
 - **Shallow vs. Deep Copy:** Managing dynamic memory during object copying [shallow&deepCopy.cpp].
 Static Keyword: Using static for variables and objects to control lifetime and scope [staticKeyword.cpp].   
 
+---
+
 ## Contributing
 Contributions are welcome! If you have suggestions for improving the code, adding new examples, or enhancing the documentation, please:
 
