@@ -77,6 +77,8 @@ The program is written in C++ and includes the following key components:
      ```
      - Demonstrates comparison operators (`<`, `>`, `<=`, `>=`, `==`) with pointers.
 
+---
+
 ## How to Run
 1. Save the code in a file named `pointers.cpp`.
 2. Compile the program using a C++ compiler:
