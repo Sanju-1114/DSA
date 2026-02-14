@@ -11,6 +11,8 @@ This C++ program demonstrates various pointer operations, including pointer init
 - C++ compiler (e.g., g++, clang++)
 - Basic understanding of C++ syntax and pointers
 
+---
+
 ## Code Structure
 The program is written in C++ and includes the following key components:
 
