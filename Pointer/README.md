@@ -1,5 +1,7 @@
 # C++ Pointer Operations Demo
 
+---
+
 ## Overview
 This C++ program demonstrates various pointer operations, including pointer initialization, pointer arithmetic, pointer comparison, and pointer-to-pointer concepts. The code includes commented-out sections that showcase different pointer-related functionalities, with the main active code focusing on pointer arithmetic.
 
