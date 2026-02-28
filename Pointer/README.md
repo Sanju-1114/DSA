@@ -90,6 +90,9 @@ The program is written in C++ and includes the following key components:
    ./pointers
    ```
 
+---
+
+
 ## Output
 The active code in `main` does not produce output since it only declares pointers without printing. To see output, uncomment the desired sections (e.g., pointer arithmetic or comparison) and recompile. Example output for pointer arithmetic:
 ```
