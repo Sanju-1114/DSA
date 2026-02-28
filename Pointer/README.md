@@ -100,6 +100,8 @@ ptr-- = 0x7ffee4c0a4b0
 ptr-- = 0x7ffee4c0a4ac
 ```
 
+---
+
 ## Notes
 - The commented-out sections can be uncommented one at a time to test specific pointer operations.
 - Ensure proper understanding of pointer arithmetic, as it depends on the size of the data type (e.g., `int` typically occupies 4 bytes on most systems).
