@@ -110,5 +110,8 @@ ptr-- = 0x7ffee4c0a4ac
 - Ensure proper understanding of pointer arithmetic, as it depends on the size of the data type (e.g., `int` typically occupies 4 bytes on most systems).
 - Be cautious with pointer operations to avoid accessing invalid memory locations.
 
+---
+
+
 ## License
 This project is unlicensed and provided for educational purposes.
