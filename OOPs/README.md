@@ -1,6 +1,10 @@
 # C++ Object-Oriented Programming (OOP) Examples
 
+---
+
 This repository contains a collection of C++ programs demonstrating key Object-Oriented Programming (OOP) concepts. Each file focuses on a specific OOP principle or technique, providing clear and concise examples to help learners understand and implement these concepts effectively.
+
+---
 
 ---
 
@@ -14,9 +18,12 @@ This repository contains a collection of C++ programs demonstrating key Object-O
 - [Contributing](#contributing)
 
 
+---
+
 ## Project Overview
 This project serves as an educational resource for students and developers learning OOP using C++. The code examples cover fundamental OOP principles such as encapsulation, inheritance, polymorphism, and abstraction, along with related concepts like constructors, destructors, deep/shallow copying, and the `static` keyword. Each program is well-commented and structured to illustrate a single concept clearly.
 
+---
 
 ## Files and Descriptions
 Below is a list of the C++ source files in this repository, each focusing on a specific OOP concept:
@@ -33,11 +40,16 @@ Below is a list of the C++ source files in this repository, each focusing on a s
 | `shallow&deepCopy.cpp`        | Compares shallow and deep copying in a class with dynamically allocated memory. |
 | `staticKeyword.cpp`           | Demonstrates the use of the `static` keyword for variables and objects, showing their lifetime and scope. |
 
+
+---
+
 ## Prerequisites
 To compile and run the programs in this repository, you need:
 - A C++ compiler (e.g., `g++`, part of GCC)
 - A development environment (e.g., VS Code, CLion, or any IDE supporting C++)
 - Basic knowledge of C++ syntax and OOP concepts
+
+---
 
 ## How to Run
 1. **Clone the Repository**: This will clone the complete DSA file
@@ -45,6 +57,8 @@ To compile and run the programs in this repository, you need:
    git clone https://github.com/Sanju-1114/DSA.git
 
    ```
+
+---
 
 ### Key OOP Concepts Covered
 - **Encapsulation:** Bundling data and methods into a class, with access control using private/public modifiers [encapsulation.cpp].
@@ -54,6 +68,8 @@ To compile and run the programs in this repository, you need:
 - **Constructors and Destructors:** Initializing objects with constructors and cleaning up with destructors [constructor.cpp,] [destructor.cpp].
 - **Shallow vs. Deep Copy:** Managing dynamic memory during object copying [shallow&deepCopy.cpp].
 Static Keyword: Using static for variables and objects to control lifetime and scope [staticKeyword.cpp].   
+
+---
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improving the code, adding new examples, or enhancing the documentation, please:

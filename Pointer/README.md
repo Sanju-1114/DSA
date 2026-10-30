@@ -1,11 +1,17 @@
 # C++ Pointer Operations Demo
 
+---
+
 ## Overview
 This C++ program demonstrates various pointer operations, including pointer initialization, pointer arithmetic, pointer comparison, and pointer-to-pointer concepts. The code includes commented-out sections that showcase different pointer-related functionalities, with the main active code focusing on pointer arithmetic.
+
+---
 
 ## Prerequisites
 - C++ compiler (e.g., g++, clang++)
 - Basic understanding of C++ syntax and pointers
+
+---
 
 ## Code Structure
 The program is written in C++ and includes the following key components:
@@ -71,6 +77,8 @@ The program is written in C++ and includes the following key components:
      ```
      - Demonstrates comparison operators (`<`, `>`, `<=`, `>=`, `==`) with pointers.
 
+---
+
 ## How to Run
 1. Save the code in a file named `pointers.cpp`.
 2. Compile the program using a C++ compiler:
@@ -82,6 +90,9 @@ The program is written in C++ and includes the following key components:
    ./pointers
    ```
 
+---
+
+
 ## Output
 The active code in `main` does not produce output since it only declares pointers without printing. To see output, uncomment the desired sections (e.g., pointer arithmetic or comparison) and recompile. Example output for pointer arithmetic:
 ```
@@ -92,10 +103,15 @@ ptr-- = 0x7ffee4c0a4b0
 ptr-- = 0x7ffee4c0a4ac
 ```
 
+---
+
 ## Notes
 - The commented-out sections can be uncommented one at a time to test specific pointer operations.
 - Ensure proper understanding of pointer arithmetic, as it depends on the size of the data type (e.g., `int` typically occupies 4 bytes on most systems).
 - Be cautious with pointer operations to avoid accessing invalid memory locations.
+
+---
+
 
 ## License
 This project is unlicensed and provided for educational purposes.
