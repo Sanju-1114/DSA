@@ -20,6 +20,7 @@ bool isSafe(vector<vector<char>> &board, int row , int col ,char dig){
         }
     }
     
+    
     //Check In the box   srow-> starting row  and scol-> starting col
     int srow = (row/3)*3 , scol = (col/3)*3 ;
     for(int i = srow ; i<= srow+2 ; i++){
