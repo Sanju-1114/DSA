@@ -32,7 +32,5 @@ int main(){
 
     cout << t1.name << endl;
    
-
-
     return 0;
 }
