@@ -25,7 +25,7 @@ int main(){
 }
 
 
----
+// ---
 
 // list --> implemented like a Doubly Linked List --> so we can insert and delete from both side --> front and back
    // --> random access not possible
