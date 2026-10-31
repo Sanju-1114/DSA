@@ -23,6 +23,7 @@ int main(){
     cout  << endl;
     return 0;
 }
+
 // PRIORITY_QUEUE --> it always store the highest priority value at top --> in this case (4 -> 3 -> 2 -> 1)
   // push    -->  to push data here --> q.push(`any data here`)            --> q.push(1)
   // emplace -->  same as push                                             --> q.emplace(2)
