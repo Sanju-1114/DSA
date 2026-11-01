@@ -22,6 +22,7 @@ int main(){
     cout  << endl;
     return 0;
 }
+
 // QUEUE -->  FIFO data structure
   // push    -->  to push data here --> q.push(`any data here`)            --> q.push(1)
   // emplace -->  same as push                                             --> q.emplace(2)
