@@ -2,8 +2,7 @@
 #include <vector>
 using namespace std;
 
-int binarySearch(vector<int> &nums, int target)
-{
+int binarySearch(vector<int> &nums, int target) {
     int left = 0;
     int right = nums.size() - 1;
 
